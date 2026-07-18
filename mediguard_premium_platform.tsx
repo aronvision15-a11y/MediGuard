@@ -7,9 +7,9 @@ import {
   Eye, EyeOff, Save, Copy, Download, Radio, VolumeX, ShieldCheck, Heart
 } from 'lucide-react';
 
-const SUPABASE_URL = "https://wgsnbnjcauazsdxzwwsa.supabase.co";
-const SUPABASE_ANON = "sb_publishable_J8hzPotwTn4RUBoGxRzPjA_YDshEKTd";
-const GROQ_API_KEY = "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";
+const SUPABASE_URL = "SUPABASE_URL";
+const SUPABASE_ANON = "SUPABASE_ANON_KEY";
+const GROQ_API_KEY = "GROQ_API_KEY";
 
 // Fallback Mock Database stored in LocalStorage to guarantee 100% instant playability in sandboxes
 const INITIAL_MEDICINES = [
